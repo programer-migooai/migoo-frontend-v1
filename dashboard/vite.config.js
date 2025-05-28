@@ -16,7 +16,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'dist', // Ensure consistent output for Amplify
+    outDir: 'dist/dashboard', // Ensure consistent output for Amplify
   },
   esbuild: {
     loader: 'jsx',
